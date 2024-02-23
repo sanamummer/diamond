@@ -39,13 +39,13 @@ npm run createTestnet
 
 Once the Testnet is live, its RPC, Explorer and Faucet details are added to the `testnet.json` file
 
-> 4️⃣ To Deploy the `Greeter.sol` smart contract
+> 4️⃣ To Deploy the smart contract
 
 ```bash
-npx hardhat run scripts/deploy-greeter.js
+npx hardhat run scripts/deploy.js
 ```
 
-> 5️⃣ To Run the Test script `Greeter-Test.js`
+> 5️⃣ To Run the Test script `diamondTest.js`
 
 ```bash
 npx hardhat test
